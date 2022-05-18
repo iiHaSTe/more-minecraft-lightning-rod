@@ -11,8 +11,9 @@ ___
 > This add-on have 5 more lightning rod
 
 * Ironed Lightning Rod: 
-  1. > Will be summon **lightning bolt** in the top of self after **100 second**
-  2. You can craft it with ```
+  1. Will be summon **lightning bolt** in the top of self after **100 second**
+  2. You can craft it with 
+  ```
   "6 Iron Ingot"
   "1 Iron Block"
   "1 Normal Lightning Rod"
