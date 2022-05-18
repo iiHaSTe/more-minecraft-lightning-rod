@@ -13,9 +13,37 @@ ___
 * Ironed Lightning Rod: 
   1. Will be summon **lightning bolt** in the top of self after **100 second**
   2. You can craft it with 
-  ```
+  ```python
   "6 Iron Ingot"
   "1 Iron Block"
   "1 Normal Lightning Rod"
-  "1 heavy_weighted_pressure_plate"
+  "1 Heavy Weighted Pressure Plate"
   ```
+* Golden Lightning Rod: 
+  1. Will be summon **lightning bolt** in the top of self after **50 second**
+  2. You can craft it with
+  ```python
+    "6 Gold Ingot"
+    "1 Gold Block"
+    "1 Ironed Lightning Rod"
+    "1 Light Weighted Pressure Plate"
+  ```
+* Daimond Lightning Rod: 
+  1. Will be summon **lightning bolt** in the top of self after **30 second**
+  2. You can craft it with
+  ```python
+    "7 Daimond"
+    "1 Daimond Block"
+    "1 Golden Lightning Rod"
+  ```
+* Netherite Lightning Rod: 
+  1. Will be summon **lightning bolt** in the top of self after **17 or 20 second**
+  2. You can craft it with
+  ```python
+    "4 Gold Ingot"
+    "2 Netherite Ingot"
+    "1 Daimond Lightning Rod"
+    "2 Golden Lightning Rod"
+  ```
+
+
