@@ -9,6 +9,7 @@ to install it go to this page [soon...]()
 
 > This add-on have 5 more lightning rod
 
+y
 * Ironed Lightning Rod: 
   1. Will be summon **lightning bolt** in the top of self after **100 second**
   2. You can craft it with 
