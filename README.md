@@ -38,7 +38,7 @@ to install it go to this page [soon...]()
 * Netherite Lightning Rod: 
   1. Will be summon **lightning bolt** in the top of self after **17 or 20 second**
   2. You can craft it with
-  ```
+  ```python
   "4 Gold Ingot"
   "2 Netherite Ingot"
   "1 Daimond Lightning Rod"
