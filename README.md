@@ -41,7 +41,7 @@ ___
   2. You can craft it with
   
 
-  <span style="color: red;">4</span> Gold Ingot
+  <span style="color: red;">*4*</span> Gold Ingot
   2 Netherite Ingot
   1 Daimond Lightning Rod
   2 Golden Lightning Rod
