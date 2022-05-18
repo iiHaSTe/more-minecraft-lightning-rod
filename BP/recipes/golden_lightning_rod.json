@@ -1,0 +1,36 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "haste:golden_lightning_rod"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#$#",
+			"#*#",
+			"#_#"
+		],
+		"key": {
+			"#": {
+				"item": "gold_ingot"
+			},
+			"$": {
+				"item": "gold_block"
+			},
+			"*": {
+				"item": "haste:iron_lightning_rod"
+			},
+			"_": {
+				"item": "minecraft:light_weighted_pressure_plate"
+			}
+		},
+		"result": [
+			{
+				"count": 1,
+				"item": "haste:golden_lightning_rod"
+			}
+		]
+	}
+}

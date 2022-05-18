@@ -1,0 +1,70 @@
+{
+	"format_version": "1.16.210",
+	"minecraft:block": {
+		"description": {
+			"identifier": "haste:netherite_lightning_rod",
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:display_name": "netherite lightning rod",
+			"minecraft:creative_category": {
+				"category": "items"
+			},
+			"minecraft:loot": "loot_tables/netherite_lightning_rod.json",
+			"minecraft:geometry": "geometry.lightning_rod",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "haste_netherite_lightning_rod",
+					"render_method": "double_sided"
+				}
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-2,
+					0,
+					-2
+				],
+				"size": [
+					4,
+					16,
+					4
+				]
+			},
+			"minecraft:entity_collision": {
+				"origin": [
+					-2,
+					0,
+					-2
+				],
+				"size": [
+					4,
+					16,
+					4
+				]
+			},
+			"minecraft:ticking": {
+				"looping": true,
+				"on_tick": {
+					"event": "haste:onTick",
+					"target": "self"
+				},
+				"range": [
+					17,
+					20
+				]
+			},
+			"minecraft:explosion_resistance": 55,
+			"minecraft:destroy_time": 6
+		},
+		"events": {
+			"haste:onTick": {
+				"run_command": {
+					"command": [
+						"summon lightning_bolt ~ ~ ~"
+					],
+					"target": "block"
+				}
+			}
+		}
+	}
+}

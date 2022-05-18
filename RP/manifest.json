@@ -1,0 +1,52 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"Hasty7777"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.2.9"
+			],
+			"dash": [
+				"0.8.11"
+			]
+		}
+	},
+	"header": {
+		"name": "more lightning rod",
+		"description": "",
+		"min_engine_version": [
+			1,
+			18,
+			0
+		],
+		"uuid": "9744456a-fc57-4033-b3b5-cf084b57e967",
+		"version": [
+			1,
+			0,
+			6
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "9c7f2eb7-4d6f-4da5-842d-834b13f91894",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "a49955a0-7b7d-40ab-9d34-0be3a02c031c",
+			"version": [
+				1,
+				0,
+				6
+			]
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "haste:daimond_lightning_rod"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"*#*",
+			"*$*",
+			"***"
+		],
+		"key": {
+			"#": {
+				"item": "diamond_block"
+			},
+			"*": {
+				"item": "diamond"
+			},
+			"$": {
+				"item": "haste:golden_lightning_rod"
+			}
+		},
+		"result": [
+			{
+				"count": 1,
+				"item": "haste:daimond_lightning_rod"
+			}
+		]
+	}
+}

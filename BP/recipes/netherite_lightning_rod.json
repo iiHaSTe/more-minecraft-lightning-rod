@@ -1,0 +1,36 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "haste:netherite_lightning_rod"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"*@*",
+			"$#$",
+			"*@*"
+		],
+		"key": {
+			"*": {
+				"item": "gold_ingot"
+			},
+			"$": {
+				"item": "netherite_ingot"
+			},
+			"#": {
+				"item": "haste:daimond_lightning_rod"
+			},
+			"@": {
+				"item": "haste:golden_lightning_rod"
+			}
+		},
+		"result": [
+			{
+				"count": 1,
+				"item": "haste:netherite_lightning_rod"
+			}
+		]
+	}
+}

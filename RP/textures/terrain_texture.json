@@ -1,0 +1,20 @@
+{
+	"num_mip_levels": 4,
+	"padding": 8,
+	"resource_pack_name": "more lightning rod",
+	"texture_name": "atlas.terrain",
+	"texture_data": {
+		"haste_iron_lightning_rod": {
+			"textures": "textures/blocks/ironed_lightning_rod"
+		},
+		"haste_golden_lightning_rod": {
+			"textures": "textures/blocks/golden_lightning_rod"
+		},
+		"haste_daimond_lightning_rod": {
+			"textures": "textures/blocks/daimond_lightning_rod"
+		},
+		"haste_netherite_lightning_rod": {
+			"textures": "textures/blocks/netherite_lightning_rod"
+		}
+	}
+}

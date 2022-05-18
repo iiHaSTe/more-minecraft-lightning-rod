@@ -1,0 +1,71 @@
+{
+	"format_version": "1.16.210",
+	"minecraft:block": {
+		"description": {
+			"identifier": "haste:iron_lightning_rod",
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:block_light_emission": 15,
+			"minecraft:block_light_absorption": 1,
+			"minecraft:explosion_resistance": 10,
+			"minecraft:creative_category": {
+				"category": "items"
+			},
+			"minecraft:loot": "loot_tables/iron_lightning_rod.json",
+			"minecraft:geometry": "geometry.lightning_rod",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "haste_iron_lightning_rod",
+					"render_method": "double_sided"
+				}
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-2,
+					0,
+					-2
+				],
+				"size": [
+					4,
+					16,
+					4
+				]
+			},
+			"minecraft:entity_collision": {
+				"origin": [
+					-2,
+					0,
+					-2
+				],
+				"size": [
+					4,
+					16,
+					4
+				]
+			},
+			"minecraft:ticking": {
+				"looping": true,
+				"on_tick": {
+					"event": "haste:onTick",
+					"target": "self"
+				},
+				"range": [
+					100,
+					100
+				]
+			},
+			"minecraft:destroy_time": 4
+		},
+		"events": {
+			"haste:onTick": {
+				"run_command": {
+					"command": [
+						"summon lightning_bolt ~ ~ ~"
+					],
+					"target": "block"
+				}
+			}
+		}
+	}
+}
