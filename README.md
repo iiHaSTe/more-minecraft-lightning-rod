@@ -5,8 +5,7 @@ this Add-on will be add 5 more defirent `lightning rods`
 
 to install it go to this page [soon...]()
 
-### Info
-___
+# Info
 
 > This add-on have 5 more lightning rod
 
